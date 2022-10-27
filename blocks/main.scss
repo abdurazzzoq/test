@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+
+@import './container';
+@import './header';
+@import './hero';
+ @import './mm-part';
+ @import './collection';
+@import './choosing';
+@import './conntainer';
+@import './article';
+ @import './footer';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

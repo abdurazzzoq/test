@@ -1,0 +1,52 @@
+
+
+
+
+
+.footer{
+    margin-top: 200px;
+    background-color: #2C343E;
+   }
+   
+   .footer-part{
+    display: flex;
+    align-items: center;
+   }
+  .nav{
+  margin-left: 102px;
+  }
+  .header-list {
+    display: flex;
+    gap: 33px;
+  }
+  .list-items {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+  
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+  
+    color: #83888f;
+    cursor: pointer;
+  }
+  .list-items:hover {
+    color: #FEFCF7;
+  }
+  .div-btn{
+    margin-left: 368px;
+    display: flex;
+    gap: 24px;
+  }
+  .footer-btn{
+   
+    background:#2C343E ;
+    border: none;
+    cursor: pointer;
+  
+    
+  }
+  

@@ -1,0 +1,85 @@
+
+
+
+.article{margin-top: 200px;}
+    .contaainer{
+        margin: 0 auto;
+            width: 1045px;}
+
+        // .working-system{}
+            .article-title{
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                /* identical to box height, or 133% */
+                
+                
+                color: #83888F;
+                
+            }
+            .group{
+                margin-top: 80px;
+                margin-bottom: 67px;
+            }
+           
+            .services{
+                
+                display: flex;
+                align-items: center;
+                gap: 95px;
+            }
+            //     .service-card{}
+                    .article-heading{
+                        margin-top: 38px;
+                        width: 255px;
+                        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+
+color: #333D4B;
+                    }
+                    .hhd{
+                        width: 200px;
+                    }
+                    .article-sub{
+                        margin-top: 42px;
+                        width: 285px;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+                        
+                        
+                        color: #333D4B;
+                    }
+                    .article-btn{
+                        margin-top: 64px;
+                        background: #0E8784;
+                        border-radius:  6px;
+                        border: #0E8784;
+                        padding: 15px 31px;
+                        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+
+color: #FEFCF7;
+cursor: pointer;
+&:hover{
+   
+background: #66D2CF;
+border-radius: 6px;
+}
+                    }

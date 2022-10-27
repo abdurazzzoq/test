@@ -1,0 +1,143 @@
+
+.mm-part{
+    
+ 
+    .hero{
+        padding: 117px 0 116px 85px;
+         width: 100%;
+    min-height: 600px;
+    background-image: url(../images/Bitmap.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    }
+    .main-header{
+        max-width: 493px;
+        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+
+color: #FEFCF7;
+
+    }
+    .main-header__par{
+        margin-top: 32px;
+        max-width: 445px;
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+        
+    }
+    .main-header__button{
+        margin-top: 56px;
+        background: #0E8784;
+        border:#0E8784;
+        padding: 15px 31px;
+        border-radius: 6px;        
+        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+
+color: #FEFCF7;
+cursor: pointer;
+
+&:hover 
+{
+    background-color:#66D2CF;
+}
+    }
+     
+}
+
+
+
+@media only screen and (max-width:380px) {
+    .hero{  
+         width: 327px;
+     background-image:url(../images/Bitmap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 100px 24px; 
+// .heading{
+   
+// }
+
+    .main-header{
+        width: 279px;
+        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 72px;
+/* or 100% */
+
+
+color: #FEFCF7;
+
+    }
+
+    .main-header__par{
+        margin-top: 24px;
+        width: 279px;
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+        
+    }
+
+
+    .main-header__button{
+        margin-top: 39px;
+        background: #0E8784;
+        border:#0E8784;
+        padding: 15px 31px;
+        border-radius: 6px;        
+        font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+
+color: #FEFCF7;
+cursor: pointer;
+
+&:hover 
+{
+    background-color:#66D2CF;
+}
+    }      
+    }
+    
+}

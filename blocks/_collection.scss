@@ -1,0 +1,117 @@
+
+
+
+
+
+.collection{
+margin-top: 136px;
+
+.collection-containerr{
+    margin: 0 auto;
+    width: 1111px;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+
+.products__cards-heading{
+    margin-top: 72px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+color: #333D4B;
+
+}
+
+.products__cards-par{
+    margin-top: 24px;
+    width: 255px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #333D4B;
+
+}
+}
+.imm{
+    display: none;
+}
+
+.download-img{
+    display: none;
+}
+}
+
+
+
+
+
+@media only screen and(max-width:380px) {
+    .collection{
+        width: 380px;
+        .collection-containerr{
+            width: 380px;
+            margin: 0 40px;
+
+.imm{
+    display: block;
+}
+.download-img{
+    margin-top: 48px;
+    display: block;
+    margin-left: 40px;
+}
+.group32{
+    display: none;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 282px;
+
+    .products__cards-heading{
+        margin-top: 24px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        
+        text-align: center;
+        
+        color: #333D4B;
+        
+    }
+    .products__cards-par{
+        margin-top: 16px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        
+        color: #333D4B;
+    }
+}
+
+        }
+    }
+}
